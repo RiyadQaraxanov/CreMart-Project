@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathtub</title>
+    <link rel="stylesheet" href="sinkstyle.css">
+    <link rel="stylesheet" href="resetcss.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="body.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/7254eb5e7b.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat&family=Roboto:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Days+One&family=Lato:wght@100;300;400;700;900&family=Montserrat&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+
+<body>
+    <!--Loading Page Start-->
+    <div class="loadingPage">
+        <div class="container1">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+        </div>
+        <script>
+        var loader = document.querySelector('.loadingPage');
+
+            window.addEventListener('load', function(){
+                loader.style.display = "none";
+            });
+        </script>
+    </div>
+    <!--Loading Page Finish-->
+    <!--Header Start-->
+    <header id="header">
+        <nav>
+            <div class="container">
+
+                <ul>
+                    <li class="creMartLogo">
+                        <a href="../index.html"><img src="/Images/cremart-logo.jpg" alt="CreMart logo"></a>
+                    </li>
+                    <li class="li language"><a href="">English</a></li>
+                    <li class="li">|</li>
+                    <li class="li usd"><a href="">USD$</a></li>
+                    <li class="li">|</li>
+                    <li class="li myAccount"><a href="">My Account</a></li>
+                    <li class="search">
+                        <div class="searchDiv">
+                            <span class="searchSpan"><input placeholder="Search our catalog" class="searchBox" type="text"></span>
+                            <span class="searchButton"><a href=""><i class='bx bx-search'></i></a></span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <nav>
+
+            <div class="container">
+                <div class="headerBlack headerBlackLinks">
+                    <a class="headerBlackLink openList" href="../Hygiene/hygiene.html">
+                        <div class="hygiene">HYGIENE</div>
+                    </a>
+                    <div class="hygieneList">
+                        <table>
+                            <tr>
+                                <td class="headerListHeadWords"><a href="../Sell/sell.html">Bathtub Liner</a></td>
+                                <td class="headerListHeadWords"><a href="../Sell/sell.html">Choka Hamam</a></td>
+                                <td class="headerListHeadWords"><a href="../Sell/sell.html">Flush Toilet</a></td>
+                            </tr>
+                            <tr>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Washbasins</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Vanity units</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Plumbing</a></td>
+                            </tr>
+                            <tr>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Shower panels</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Grab bars</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Piping</a></td>
+                            </tr>
+                            <tr>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Shower cabins</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Towel warmers</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Low-flush</a></td>
+                            </tr>
+                            <tr>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Shower trays</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Shower trolleys</a></td>
+                                <td class="headerListWords"><a href="../Sell/sell.html">Toiletry bag</a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><img src="/Images/header-list-image.jpg" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <a class="headerBlackLink" href="../Sink/sink.html">
+                        <div>SINK</div>
+                    </a>
+                    <a class="headerBlackLink" href="../Cleret/cleret.html">
+                        <div>CLERET</div>
+                    </a>
+                    <a class="headerBlackLink" href="../Bathtub/bathtub.html">
+                        <div>BATHTUB</div>
+                    </a>
+                    <a class="headerBlackLink" href="../Shower/shower.html">
+                        <div>SHOWER</div>
+                    </a>
+                    <a class="headerBlackLink" href="../Trap/trap.html">
+                        <div>TRAP</div>
+                    </a>
+                    <div class="bucketDiv">
+                        <a href="">
+                            <div class="bucket">
+                                <i class="bx bxs-shopping-bag"></i>
+                                <span class="myCart">MY CART</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="gray1"></div>
+            <div class="gray">
+                <div class="container">
+                    <span id="home"><a href="">Home</a></span>
+                    <span class="drop" id="drop">/</span>
+                    <span class="grayLists"><a href="../Hygiene/Hygiene.htm">Hygiene</a></span>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!--Header Finish-->
+    <!--Body Start-->
+
+    <div class="container body-opsi">
+        <section id="wrapper">
+            <!-- sol teref burdan baslayir -->
+            <div id="left-col">
+                <!-- SINK -->
+                <a href="###">
+                <div id="sink">BATHTUB</div>
+                </a>
+                <!-- img -->
+                <a href="###">
+                    <div id="classical-design"><img src="left.jpg" alt=""></div>
+                </a>
+                
+                <!--New-product burdan baslayir--> 
+                <div id="new-product">
+                    <!-- product sozu -->
+                    <div id="in-new">NEW PRODUCTS</div>
+                    
+                    <div id="in-new-product">
+                        <div class="with-img">
+                            <a href="../Sell/sell.html"><img src="small_default.jpg" alt=""></a>
+                            <div class="product-description">
+                                
+                                <h1><a href="../Sell/sell.html">SOAP DISHES</a></h1>
+                                
+                                <div class="in-product">
+                                    
+                                    <span class="grey-color">$16.40 </span><span class="percent">-20%</span> <br>
+                                    <span><strike class="strike">$20.50</strike></span> <br>
+                                    
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="with-img">
+                            <a href="../Sell/sell.html"><img src="small_default2.jpg" alt=""></a>
+                            <div class="product-description">
+                                
+                                <h1><a href="../Sell/sell.html">LIQUID SOAP DISPENSER</a></h1>
+                                
+                                <div class="in-product">
+                                    
+                                    <span class="grey-color">$30.50  <br>
+                                    
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="with-img">
+                            <a href="../Sell/sell.html"><img src="small_default3.jpg" alt=""></a>
+                            <div class="product-description">
+                                
+                                <h1><a href="../Sell/sell.html">SOAP DISHES</a></h1>
+                                
+                                <div class="in-product">
+                                    
+                                    <span class="grey-color">$28.98 </span><span class="percent">-5%</span> <br>
+                                    <span><strike class="strike">$30.50</strike></span> <br>
+                                    
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="size-color">
+                    <p class="in-size">FILTER BY</p>
+                    <!-- Size burdan baslayir -->
+                    <section class="checkbox-size">
+                        <p>SIZE</p>
+                        <label for="checkbox" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>S (6)</span>
+                        </label>
+                        <label for="checkbox2" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox2">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>M (6)</span>
+                        </label>
+                        <label for="checkbox3" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox3">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>L (6)</span>
+                        </label>
+                    </section>
+    
+    
+                    <!-- COLOR burdan baslayir -->
+                    <section class="checkbox-size">
+                        <p>COLOR</p>
+                        <label for="checkbox4" class="box2">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox4">
+                            <div class="check-div"></div>
+                            <span>Black (1)</span>
+                        </label>
+                        <label for="checkbox5" class="box2">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox5">
+                            <div class="check-div"></div>
+                            <span>Orange (5)</span>
+                        </label>
+                        <label for="checkbox6" class="box2">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox6">
+                            <div class="check-div"></div>
+                            <span>Blue (2)</span>
+                        </label>
+                        <label for="checkbox7" class="box2">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox7">
+                            <div class="check-div"></div>
+                            <span>Green (1)</span>
+                        </label>
+                        <label for="checkbox8" class="box2">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox8">
+                            <div class="check-div"></div>
+                            <span>Yellow (2)  </span>
+                        </label>
+                    </section>
+                    <!-- COMPOSITIONS burdan baslayir -->
+                    <section class="checkbox-size">
+                        <p>COMPOSITIONS</p>
+                        <label for="checkbox9" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox9">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Cotton (4)</span>
+                        </label>
+                        <label for="checkbox10" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox10">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Polyester (1)</span>
+                        </label>
+                        <label for="checkbox11" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox11">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Viscose (1)</span>
+                        </label>
+                       
+                    </section>
+                    <!-- STYLES burdan baslayir -->
+                    <section class="checkbox-size">
+                        <p>STYLES</p>
+                        <label for="checkbox12" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox12">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Casual (2)</span>
+                        </label>
+                        <label for="checkbox13" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox13">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Girly (4)</span>
+                        </label>
+                    </section>
+                    <!-- PROPERTIES burdan baslayir -->
+                    <section class="checkbox-size">
+                        <p>PROPERTIES</p>
+                        <label for="checkbox14" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox14">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Colorful Dress (3)</span>
+                        </label>
+                        <label for="checkbox15" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox15">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Maxi Dress (1)</span>
+                        </label>
+                        <label for="checkbox16" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox16">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Midi Dress (1)</span>
+                        </label>
+                        <label for="checkbox17" class="box">
+                            <input class="check-inp" type="checkbox" name="" id="checkbox17">
+                            <div class="check-div"><i class="material-icons">check</i></div>
+                            <span>Short Sleeve (1)</span>
+                        </label>
+                    </section>
+    
+                </div>
+    
+            
+        
+            
+            
+            </div>  
+    
+    
+    
+                    <!-- body burdan baslayir -->
+    
+    
+    
+    
+            <div id="body">
+                <h1 id="body-sink">BATHTUB</h1>
+                <!-- toolbar burdan baslayir-->
+                <section id="products">
+                    <div id="body-toolbar">
+                        <!-- product -->
+                        <div id="body-product">
+                                <div class="divBtn1" id = "active" onmouseenter="myEnterFunction(this)" onmouseleave="myOverFunction(this)"><i class='bx bxs-grid-alt'></i></div>
+                                <div class="divBtn2" id = "deactive" onmouseenter="myEnterFunction(this)" onmouseleave="myOverFunction(this)"><i class='bx bx-list-ul' ></i></div>
+                            <p>There are 6 products.</p>
+                        </div>
+                        <!-- sort by burdan baslayir -->
+                        <div id="sort-by-tb">
+                            <div id="in-sort">Sort by:</div>
+    
+                            <div id="select-tb">
+                                <select name="sort-name" id="select-sort">
+                                    <option value="relevance">Relevance</option>
+                                    <option value="name,a to z">Name, A to Z</option>
+                                    <option value="name,z to a">Name, Z to A</option>
+                                    <option value="price,low to hight">Price, low to high</option>
+                                    <option value="price,high to low">Price, high to low</option>
+                                </select>
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                
+                    <div id="active-filter">
+                        <p>Active filters</p>
+                    </div>
+                    
+                    <div id="all-sell-products" class="all-sellproducts">
+                        <!-- birci article -->
+                            <article class="sell-product">
+                                <p class="new-sell-prod">NEW</p>
+                                <div class="img-sell-product">
+                                    <div class="icon-sell">
+                                        <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                        <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                    </div>
+                                    <a href="../Sell/sell.html">
+        
+                                        <img src="home_default.jpg" alt="">
+                                    
+                                    </a>
+                                </div>
+                                <div class="product-description">
+                                    <h1 class="h1-products">
+                                        <a href="../Sell/sell.html">BATHROOM SANITARY WARE</a>
+                                    </h1>
+                                    <div class="money-product"><span>$25.99</span></div>
+                                    
+                                    <div class="color-product">
+                                        <a href="../Sell/sell.html"></a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- 2ci artice -->
+                            </article>
+                        
+                        <article class="sell-product">
+                            <p class="new-sell-prod">NEW</p>
+                            <div class="img-sell-product">
+                                <div class="icon-sell">
+                                    <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                                <a href="../Sell/sell.html">
+    
+                                    <img src="home_default2.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description">
+                                <h1 class="h1-products">
+                                    <a href="../Sell/sell.html">GROHE BATHROOM FITTINGS</a>
+                                </h1>
+                                <div class="money-product"><span>$25.99</span></div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                
+                            </div>
+                            <!-- 3cu article -->
+                        </article>
+                        <article class="sell-product">
+                            <p class="new-sell-prod">NEW</p>
+                            <div class="img-sell-product">
+                                <div class="icon-sell">
+                                    <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                                <a href="../Sell/sell.html">
+    
+                                    <img src="home_default3.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description">
+                                <h1 class="h1-products">
+                                    <a href="../Sell/sell.html">SOAP DISHES</a>
+                                </h1>
+                                <div class="money-product">
+                                    <span>$16.40</span> <span class="percent">-20%</span> <span><strike class="strike">&20.50</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                
+                            </div>
+                            <!-- 4cu article -->
+                        </article>
+                        <article class="sell-product">
+                            <p class="new-sell-prod">NEW</p>
+                            <div class="img-sell-product">
+                                <div class="icon-sell">
+                                    <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                                <a href="../Sell/sell.html">
+    
+                                    <img src="home_default4.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description">
+                                <h1 class="h1-products">
+                                    <a href="../Sell/sell.html">PLASTIC TOILET SEAT COVERS</a>
+                                </h1>
+                                <div class="money-product">
+                                    <span>$28.98</span> <span class="percent">-5%</span> <span><strike class="strike">&30.50</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                
+                            </div>
+                            <!-- 5ci article -->
+                        </article>
+                        <article class="sell-product">
+                            <p class="new-sell-prod">NEW</p>
+                            <div class="img-sell-product">
+                                <div class="icon-sell">
+                                    <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                                <a href="../Sell/sell.html">
+    
+                                    <img src="home_default5.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description">
+                                <h1 class="h1-products">
+                                    <a href="../Sell/sell.html">AUTOMATIC SOAP DISPENSER</a>
+                                </h1>
+                                <div class="money-product">
+                                    <span>$25.73</span> <span class="percent">-1%</span> <span><strike class="strike">$25.99</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                
+                            </div>
+                            <!-- 6ci article -->
+                        </article>
+                        <article class="sell-product">
+                            <p class="new-sell-prod">NEW</p>
+                            <div class="img-sell-product">
+                                <div class="icon-sell">
+                                    <a href="../Sell/sell.html" class="first-icon-sell"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                                <a href="../Sell/sell.html">
+    
+                                    <img src="home_default6.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description">
+                                <h1 class="h1-products">
+                                    <a href="../Sell/sell.html">BATHROOM SUITES</a>
+                                </h1>
+                                <div class="money-product">
+                                    <span>$15.85</span> <span class="percent">-4%</span> <span><strike class="strike">$16.51</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                
+                            </div>
+    
+                        </article>
+    
+                        
+    
+    
+    
+                    </div>
+                
+                
+                </section>
+    
+                
+    
+    
+    
+                    <!--2ci body burdan baslayir  -->
+    
+    
+    
+    
+    
+                <div class="imageLists">
+                    <div id="listOfImagesProduct">
+                        <!-- 1ci article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">BATHROOM SANITARY WARE</a>
+                                </h1>
+                                <div class="money-product2"><span>$25.99</span></div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- 2ci article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default2.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">GROHE BATHROOM FITTINGS</a>
+                                    
+                                </h1>
+                                <div class="money-product2"><span>$25.99</span></div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- 3cu article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default3.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">SOAP DISHES</a>
+                                </h1>
+                                <div class="money-product2">
+                                    <span>$16.40</span> <span class="percent2 percent">-20%</span> <span><strike class="strike2 strike">&20.50</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- 4cu article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default4.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">PLASTIC TOILET SEAT COVERS</a>
+                                </h1>
+                                <div class="money-product2">
+                                    <span>$28.98</span> <span class="percent percent2">-5%</span> <span><strike class="strike strike2">&30.50</strike></span>
+                                </div>
+                                
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- 5ci article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default5.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">AUTOMATIC SOAP DISPENSER</a>
+                                </h1>
+                                <div class="money-product2">
+                                    <span>$25.73</span> <span class="percent percent2">-1%</span> <span><strike class="strike strike2">$25.99</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- 6ci article -->
+                        <article class="sell-product2">
+                            <p class="new-sell-prod2">NEW</p>
+                            <div class="img-sell-product2">
+                                <a href="../Sell/sell.html">
+        
+                                    <img src="home_default6.jpg" alt="">
+                                
+                                </a>
+                            </div>
+                            <div class="product-description2">
+                                <h1 class="h1-products2">
+                                    <a href="../Sell/sell.html">BATHROOM SUITES</a>
+                                </h1>
+                                <div class="money-product2">
+                                    <span>$15.85</span> <span class="percent percent2">-4%</span> <span><strike class="strike strike2">$16.51</strike></span>
+                                </div>
+                                
+                                <div class="color-product">
+                                    <a href="../Sell/sell.html"></a>
+                                    <a href="../Sell/sell.html"></a>
+                                </div>
+                                <p class="p-product2">
+                                        
+                                        Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance.
+        
+                                </p>
+                                <div class="icon-sell2">
+                                    <a href="../Sell/sell.html" class="first-icon-sell2"><i class="bx bxs-show"></i></a>
+                                    <a href="../Sell/sell.html" class="second-icon-sell2"><i class="bx bxs-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                  </div>
+                  <section id="nav-body">
+                    <p>Showing 1-6 of 6 item(s)</p>
+                </section>
+                </div>
+    
+                <section id="nav-body">
+                    <p>Showing 1-6 of 6 item(s)</p>
+                </section>
+            </div>  
+    
+    
+    
+    
+        </section>
+    
+    <script src="script.js"></script>
+    </div>
+
+    <!--Body Finish-->
+    <!--Footer Start-->
+    <footer>
+        <div class="container">
+            <div class="footerBlack">
+                <div class="footerBlackDiv">
+                    <ul>
+                        <li>NEWSLETTER</li>
+                        <li>You may unsubscribe at any moment.</li>
+                        <li>
+                            <div>
+                                <input id="mailInput" placeholder="Your email adress" type="mail">
+                                <input id="subscribeButton" type="button" value="SUBSCRIBE">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="gray4"></div>
+        <div class="gray2">
+            <div class="container">
+                <div>
+                    <div class="footerLogo">
+                        <img src="/Images/cremart-logo.jpg" alt="Cremart Logo">
+                        <div>Call Us 214 -025 - 3335</div>
+                        <div>Address: No 40 Bari Street 133 / </div>
+                        <div>Newyork City,ny United states</div>
+                    </div>
+                    
+                    <table>
+                        <tr>
+                            <td class="">PRODUCTS</td>
+                            <td class="">OUR COMPANY</td>
+                            <td class="">INFORMATION</td>
+                        </tr>
+                        <tr>
+                            <td class=""><a href="">Prices drop</a></td>
+                            <td class=""><a href="../Delivery/delivery.html">Delivery</a></td>
+                            <td class=""><a href="">Your Orders</a></td>
+                        </tr>
+                        <tr>
+                            <td class=""><a href="">New products</a></td>
+                            <td class=""><a href="../Legal Notice/legalnotice.html">Legal Notice</a></td>
+                            <td class=""><a href="">Your Wishlist</a></td>
+                        </tr>
+                        <tr>
+                            <td class=""><a href="">Best sales</a></td>
+                            <td class=""><a href="../About Us/aboutus.html">About us</a></td>
+                            <td class=""><a href="">Payment Return</a></td>
+                        </tr>
+                        <tr>
+                            <td class=""><a href="">Stores</a></td>
+                            <td class=""><a href="../Contact Us/contactus.html">Contact us</a></td>
+                            <td class=""><a href="">Wheel Shine</a></td>
+                        </tr>
+                        <tr>
+                            <td class=""><a href="../Log In/login.html">Login</a></td>
+                            <td class=""><a href="../Sitemap/sitemap.html">Sitemap</a></td>
+                            <td class=""><a href="">Your Account</a></td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+        <div class="gray3">
+            <div class="container">
+                <div class="footerLine"></div>
+                <ul>
+                    <li class="footerCopyright"><a href="">FAQ</a></li>
+                    <li class="footerCopyright">|</li>
+                    <li class="footerCopyright"><a href="">Orders & Return</a></li>
+                    <li class="footerCopyright">|</li>
+                    <li class="footerCopyright"><a href="">Shipping Rates & Policie</a></li>
+                    <li class="footerCopyright">|</li>
+                    <li class="footerCopyright"><a href="">International Shipping</a></li>
+                    <li class="footerCopyright">|</li>
+                    <li class="footerCopyright"><a href="">Contact Us</a></li>
+                    <li class="copyright"><a href="">© 2022 - Ecommerce software by PrestaShop™</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Finish-->
+</body>
+
+</html>

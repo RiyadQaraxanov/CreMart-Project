@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+.container {
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header Finish*/
+
+/*Footer Start*/
+
+.footerBlack {
+  width: 100%;
+  height: 91px;
+  background-color: rgb(28, 28, 28);
+  border-radius: 3px;
+}
+.footerBlack ul {
+  color: #fff;
+  display: flex;
+}
+.footerBlack ul li:nth-child(1) {
+  font-size: 26px;
+  font-family: "Days One", sans-serif;
+  padding-top: 15px;
+}
+.footerBlack ul li:nth-child(2) {
+  padding-top: 25px;
+  padding-left: 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+.footerBlackDiv {
+  padding: 20px 20px 20px 25px;
+}
+.footerBlackDiv ul li div {
+  display: flex;
+}
+#mailInput {
+  height: 28px;
+  background-color: #3f4241;
+  border: none;
+  padding: 11px 20px;
+  outline: none;
+  width: 427px;
+  border-radius: 3px;
+  margin-left: 58px;
+}
+#mailInput::placeholder {
+  color: #8e8e8e;
+}
+#subscribeButton {
+  height: 50px;
+  padding: 12px 25px;
+  width: 146px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  border: none;
+}
+#subscribeButton:hover {
+  background-color: #8e8e8e;
+  color: #fff;
+}
+.gray2 {
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  height: 351.2px;
+  position: absolute;
+
+  box-sizing: inherit;
+}
+.footerLogo {
+  padding-top: 146px;
+  width: 237px;
+  font-family: "Lato", sans-serif;
+  padding-right: 150px;
+}
+.footerLogo div {
+  padding-top: 12px;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.gray2 .container table {
+  margin-left: 390px;
+  margin-top: -133px;
+  font-size: 22px;
+  font-family: "Days One", sans-serif;
+}
+.gray2 .container table td {
+  height: 25px;
+}
+.gray2 .container table tr td:nth-child(1) {
+  width: 302.5px;
+}
+.gray2 .container table tr:nth-child(1) {
+  height: 47.2px;
+}
+.gray2 .container table tr td:nth-child(2) {
+  width: 302.5px;
+}
+.gray2 .container table a {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+.gray2 .container table a:hover {
+  color: rgb(28, 28, 28);
+}
+.products {
+  width: 302.5px;
+}
+.gray3 {
+  width: 100%;
+  height: 140px;
+  margin-top: 351.2px;
+  background-color: rgb(244, 244, 244);
+}
+.footerLine {
+  height: 1px;
+  background-color: #dbdbdb;
+}
+.gray3 ul {
+  display: flex;
+  padding-top: 28px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #8e8e8e;
+}
+.footerCopyright {
+  padding-right: 15px;
+}
+.gray3 ul li a {
+  text-decoration: none;
+  color: #8e8e8e;
+}
+.gray3 ul li a:hover {
+  color: rgb(28, 28, 28);
+}
+.gray4 {
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  height: 50px;
+  margin-top: -50px;
+  z-index: -99;
+}
+.copyright {
+  padding-left: 290px;
+}
+
+/*Body Style*/
+.swiper{
+
+}
+#ididi{
+  z-index: -99;
+  display: flex;
+}
+
+.carousel-container {
+  margin-top: 65px;
+  overflow: hidden;
+  height: 534.8px;
+}
+.carousel-container img {
+  width: 100%;
+}
+.carousel-slide {
+  width: 100%;
+  display: flex;
+}
+#prevBtn {
+
+  top: 48%;
+
+  left: 5%;
+  font-size: 30px;
+  color: #8e8e8e;
+  opacity: 1;
+  cursor: pointer;
+}
+#nextBtn {
+
+  top: 50%;
+  right: 5%;
+  font-size: 30px;
+  color: #8e8e8e;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.about a .aboutText {
+  display: flex;
+}
+.about {
+  margin-top: 50px;
+}
+.about a {
+  text-decoration: none;
+}
+.aboutDiv {
+  padding-top: 82px;
+  font-family: "Lato", sans-serif;
+}
+.aboutText img {
+  margin-left: 100px;
+  padding-right: 35px;
+}
+.aboutT1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+}
+.aboutT1 span {
+  color: #8e8e8e;
+}
+.aboutT2 {
+  color: #1c1c1c;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.aboutT3 {
+  color: #8e8e8e;
+  margin-bottom: 31px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.aboutBTN {
+  width: 172.2px;
+  height: 38px;
+  background-color: #1c1c1c;
+  padding-top: 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+}
+.aboutBTN:hover {
+  background-color: #8e8e8e;
+}
+.lineDiv{
+    display: flex;
+}
+.aboutBTN span {
+  padding-left: 42px;
+  margin-top: 18px;
+  font-size: 16px;
+}
+.aboutText {
+  margin-bottom: 75px;
+}
+.banners {
+  width: 590px;
+  height: 210px;
+  padding: 0 7px;
+}
+.banners img {
+  border-radius: 3px;
+}
+.banner {
+  display: flex;
+  margin: auto;
+}
+
+.container .Products {
+  display: flex;
+  margin-top: 100px;
+}
+.Products a {
+  text-decoration: none;
+}
+.blackLine {
+  width: 75px;
+  height: 2.5px;
+  background-color: #1c1c1c;
+}
+
+.whiteLine {
+  width: 100%;
+  height: 2.5px;
+  background-color: rgb(227, 227, 227);
+}
+.lineClass {
+  display: flex;
+}
+.topProducts {
+  color: #1c1c1c;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Days One", sans-serif;
+  margin-right: 425px;
+}
+.prdct,
+.drop {
+  padding-left: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #8e8e8e;
+}
+.prdct {
+  color: #8e8e8e;
+  cursor: pointer;
+}
+.prdct:hover {
+  color: #1c1c1c;
+}
+.newProductsDiv {
+  width: 100%;
+  height: 556.56px;
+  margin-top: 25px;
+  display: flex;
+
+}
+.productsName {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #8e8e8e;
+  padding-top: 23px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.costs {
+  display: flex;
+}
+.costWithEndirim {
+  font-size: 20px;
+  font-family: "Days One", sans-serif;
+  color: #1c1c1c;
+  padding-right: 5px;
+}
+.endirim {
+  font-size: 14px;
+  background-color: #f1f1f1;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-family: "Lato", sans-serif;
+}
+.cost {
+  font-size: 20px;
+  font-family: "Days One", sans-serif;
+  color: #8e8e8e;
+  text-decoration: line-through;
+}
+.colors {
+  display: flex;
+  margin-top: 10px;
+}
+.colorOrange {
+  width: 16px;
+  height: 16px;
+  background-color: orange;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+.colorOrange:hover {
+  width: 14px;
+  height: 14px;
+  border: 1px #1c1c1c solid;
+}
+.colorGreen:hover {
+  width: 14px;
+  height: 14px;
+  border: 1px #1c1c1c solid;
+}
+.colorGreen {
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+  margin-right: 6px;
+  background-color: greenyellow;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #8e8e8e;
+  opacity: 0.5;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #1c1c1c;
+}
+
+.featuredProductsDiv {
+  width: 100%;
+  height: 556.56px;
+  display: none;
+  margin-top: 25px;
+}
+.bestSellersDiv {
+  width: 100%;
+  height: 556.56px;
+  display: none;
+  margin-top: 25px;
+}
+
+.dianaDiv {
+  margin-top: 100px;
+}
+.dianaDivImg {
+  width: 100%;
+}
+
+.blackSlider {
+  height: 311px;
+  width: 100%;
+  background-color: #1c1c1c;
+  border-radius: 3px;
+}
+.lastestNewsSlider {
+  height: 615px;
+  display: flex;
+  overflow: hidden;
+}
+.lastestSlider {
+  width: 382px;
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+  padding: 50px 11px 0 11px;
+}
+.lastestSlider img {
+  border-radius: 3px;
+}
+.thisIs {
+  color: #1c1c1c;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.hasBeen {
+  font-size: 14px;
+  padding-top: 20px;
+  color: #8e8e8e;
+  line-height: 2;
+}
+.feb {
+  color: #8e8e8e;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.lastSlider {
+  display: flex;
+}
+.sliderIMGlast a img {
+  padding: 25px 50px 100px 50px;
+  opacity: 50%;
+}
+.sliderIMGlast a:hover > img {
+  opacity: 1;
+  transition: 0.6s;
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+.swiper-slide {
+  margin: 0;
+  padding: 0;
+}

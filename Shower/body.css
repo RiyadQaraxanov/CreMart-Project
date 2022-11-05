@@ -1,0 +1,655 @@
+@import url(../resetcss.css);
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;/*sifirlama*/
+}
+#wrapper div{
+    
+    box-sizing: border-box;/*sifirlama*/
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Days One', sans-serif;
+}
+
+.grey-color {
+    color: #3c3a3a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Days One', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+}
+
+
+/*sol teref burdan baslayir*/
+
+#left-col{
+    max-width: 287px;
+    height: auto; /*sol teref*/
+}
+
+#sink {
+    background-color: rgb(28, 28, 28);
+    height: 49.2px; /*sink yazisi*/
+    padding: 25px 20px 0;
+    font-size: 22px;
+    border-radius: 5px;
+    color: white;
+}
+
+#classical-design img {
+    height: 370px;
+    border-radius: 5px;  /*classical-design img in left-col */
+   
+}
+#left-col a:nth-child(2){
+    margin: 30px 0 0;
+    display: inline-block;
+}
+#new-product {
+    border: 1px solid #e5eaef;    /*umumi product*/
+    height: auto;
+    border-radius: 3px;
+    margin: 30px 0 0;
+}
+
+#in-new-product {
+    padding: 0 20px 20px 20px;   /*3 fotoya verilen padding*/
+}
+
+#in-new {
+    padding: 25px 20px 20px;    /*product*/
+
+    font-size: 22px;
+}
+
+.product-description {
+    font-size: 14px; /*seklin yanindaki sozlerin olcusu*/
+    margin-left: 12px;
+    line-height: 22px;
+}
+
+.with-img {
+    display: flex;   /*flex burdan verilib*/
+    margin: 10px 0 0;
+}
+
+.with-img h1 a {
+    font-size: 14px;/*soap dishes link*/
+    font-family: 'Lato', sans-serif;
+    color: #8E8E8E;
+}
+
+.with-img h1 {
+    line-height: 16px;
+    margin: 0 0 2px;
+}
+
+.with-img:hover h1 a {
+    
+    color: #1c1c1c; /*hover hover*/
+}
+
+.with-img:hover button {
+    color: #8E8E8E/*hover hover*/
+}
+
+
+/*spanlar*/
+
+.in-product span:nth-child(2) {
+    color: #8E8E8E;
+    font-family: 'Lato', sans-serif;
+}
+
+.in-product span:nth-child(3) {
+    color: #8E8E8E;
+}
+
+
+/*image burdadir*/
+
+.with-img a img {
+    width: 85px;
+    height: 108px;
+    border-radius: 3px;
+}
+
+
+/*strike*/
+
+.strike {
+    color: #8e8e8e;
+}
+
+.percent {
+    background-color: #f8f8f8; /*FAIZ ISARESI*/
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.in-product button {
+    font-family: 'Lato', sans-serif;
+    border: transparent; /*button*/
+    cursor: pointer;
+    background-color: transparent;
+    color: #1c1c1c;
+    font-weight: 400;
+}
+
+#size-color {
+    border: 1px solid #e5eaef; /*border*/
+    border-radius: 3px;
+    margin: 30px 0 0;
+    margin-bottom: 50px;
+}
+
+#size-color .in-size {
+    color: #8E8E8E; /*Filter by sozu*/
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 0 0 8px;
+}
+
+.checkbox-size {
+    padding: 12px 20px;/*section*/
+    margin: 0 0 16px;
+}
+
+.checkbox-size p:first-child {
+    color: #1c1c1c;/*size sozu*/
+    font-size: 14px;
+    margin: 0 0 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.check-inp {
+    display: none; /*display none*/
+}
+
+.box .check-div {
+    height: 14px;   /*qutu*/
+    width: 14px;
+    display: inline-block;
+    border: 2px solid #e7e8ea;
+    position: relative;
+}
+
+.check-div i {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 900;
+    display: none;
+    color: #8E8E8E;
+}
+
+.box .check-inp:checked+.check-div i {
+    display: block;  /*v isaresi*/
+}
+
+.box {
+    display: flex;
+    cursor: pointer;
+}
+
+.box:first-of-type~.box {
+    margin: 26px 0 0;/*label*/
+}
+
+.box:hover span {
+    color: #1c1c1c;
+}
+
+.box span {
+    color: #8e8e8e;   /*S(6)*/
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    margin-left: 4px;
+}
+
+.color div {
+    background-color: red;
+}
+
+.box2 {
+    display: flex; /*label*/
+    cursor: pointer;
+}
+
+.box2:first-of-type~.box2 {
+    margin: 26px 0 0;
+}
+
+.box2 span {
+    color: #8e8e8e; /*S(6)*/
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    margin-left: 4px;
+}
+
+.box2 .check-div {
+    height: 15px; /*qutu*/
+    width: 15px;
+    display: inline-block;
+    border: 1px solid #e7e8ea;
+    outline: 1px solid #e7e8ea;
+}
+
+.box2:nth-of-type(1) .check-div {
+    background-color: #434A54;
+}
+
+.box2:nth-of-type(2) .check-div {
+    background-color: #F39C11;
+    ;
+}
+
+.box2:nth-of-type(3) .check-div {
+    background-color: #5D9CEC;
+}
+
+.box2:nth-of-type(4) .check-div {
+    background-color: #A0D468;
+    ;
+}
+
+.box2:nth-of-type(5) .check-div {
+    background-color: #F1C40F;
+}
+
+.box2:hover div {
+    border: 2px solid #1c1c1c;
+}
+
+.box2:hover span {
+    color: #1c1c1c;
+}
+
+.box2 .check-inp:checked+.check-div {
+    border: 2px solid #1c1c1c;
+}
+
+
+/*body hissesi burdan baslayir*/
+
+#body{
+    width: 902px; /*padding verilib*/
+    padding-left: 25px;
+}
+
+#body-sink {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;/*sink sozu*/
+    font-size: 22px;
+    color: #1c1c1c;
+    margin: 0 0 42px;
+}
+
+#body-toolbar {
+    padding: 20px 30px 15px; /*toolbar a padding burda verilib*/
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+}
+
+#body-product {
+    display: flex;/*producta flex burdan verilib*/
+}
+.divBtn1{
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 4px;
+
+}
+
+#body-product i {
+    font-size: 28px; /*grid ve menunun olcusu */
+}
+
+label .menu-g {
+    display: none; /*input display none*/
+}
+
+label .menu-g:checked+div {
+    background-color: #1c1c1c; /*input checked*/
+    color: white;
+    border-radius: 4px;
+}
+
+#body-product div {         /*inpurdan sonraki div*/
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+    padding: 3px 3px 0 3px; 
+    cursor: pointer;
+}
+
+#body-product p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  /*menu ve gridden sonraki yazi*/
+    margin: 8px 8px;
+}
+
+#sort-by-tb {
+    display: flex; /*toolbar flex verilib*/
+}
+
+#in-sort {
+    font-family: 'Lato', sans-serif;  /*sort by sozu*/
+    margin: auto 8px;
+}
+
+#select-tb {
+    margin: auto;
+}
+
+#select-sort {
+    font-family: 'Lato', sans-serif; /*select*/
+    outline: none;
+    border: #e5eaef solid 1px;
+    width: 304px;
+    height: 38px;
+    padding: 8px;
+}
+
+#select-sort option {
+    font-family: 'Lato', sans-serif; /*option*/
+}
+
+#active-filter p {
+    font-family: 'Lato', sans-serif;
+    color: #1c1c1c; /*active filters sozu*/
+    margin: 0 0 45px;
+    font-weight: 700;
+}
+
+#all-sell-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sell-product {
+    width: 283px;
+    height: 485.5px;  /*article burdadl*/
+    position: relative;
+}
+
+.sell-product:hover .h1-products a {
+    color: #1c1c1c;
+}
+.money-product span{
+    margin-right: 5px;
+}
+.money-product .percent {
+    font-weight: 700;/*fauz*/
+    color: #8e8e8e;
+}
+
+.money-product .strike {
+    font-size: 18px;   /*ustden xet*/
+}
+
+.new-sell-prod {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: #1c1c1c;/* NEW sozu*/
+    font-size: 14px;
+    left: 10px;
+    top: 10px;
+    font-weight: 700;
+}
+
+.h1-products {
+    padding: 13px 0 6px;/*productlarin adi*/
+}
+
+
+/*rengler*/
+
+.color-product {
+    padding: 8px 0 0;
+}
+
+.color-product a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;/*reng yeri*/
+    background-color: #F39C11;
+    border: 1px solid #e7e8ea;
+}
+
+.color-product a:hover {
+    border: 1px solid #1c1c1c;
+}
+
+.color-product a:nth-child(2) {
+    background-color: #A0D468;
+    
+}
+
+.color-product a:nth-child(3) {
+    background-color: #5D9CEC;
+}
+
+.color-product a:nth-child(4) {
+    background-color: #434A54;
+}
+
+
+/*rengler bitir*/
+
+.product-description {
+    margin: 0;
+}
+
+.h1-products a {
+    color: #8e8e8e;
+    font-family: 'Lato', sans-serif;
+}
+
+.money-product {
+    font-size: 20px;
+}
+
+
+/*iconlar*/
+
+.icon-sell {
+    position: absolute;
+    transform: translate(90px, 315px);
+    opacity: 0;
+    transition: 300ms ease-in;
+}
+
+.sell-product:hover .icon-sell {
+    opacity: 1;
+    transform: translate(90px, 300px);
+    transition: 200ms ease-in-out;
+}
+
+.icon-sell a:hover {
+    background-color: #8e8e8e;
+}
+
+.icon-sell a {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.icon-sell i {
+    color: white;
+    font-size: 30px;
+}
+
+.second-icon-sell {
+    margin-left: 5px;
+}
+
+
+/*iconlar bitir*/
+
+
+
+
+/*birinci body burda bitir*/
+
+
+
+.imageLists{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+
+
+/*2ci body burdan baslayir*/
+
+
+
+.sell-product2 {
+    margin-bottom: 20px;
+    width: 922.5px;
+    height: 357px;  /*article burdadl*/
+    position: relative;
+    display: flex;
+}
+.new-sell-prod2 {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: #1c1c1c;/* NEW sozu*/
+    font-size: 14px;
+    left: 10px;
+    top: 10px;
+    font-weight: 700;
+}
+.product-description2{
+    margin-left: 10px;
+}
+.h1-products2 {
+    padding: 13px 0 6px;/*productlarin adi*/
+}
+.h1-products2 a{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;   /*productlarin adinin rengi... */
+    color: #8E8E8E;
+}
+.sell-product2:hover .h1-products2 a {
+    color: #1c1c1c;
+}
+.money-product2{
+    padding: 0 0 15px; 
+}
+.money-product2 span{
+    color: #1c1c1c;
+    font-size: 20px; 
+    margin-right: 5px;
+}
+.money-product2 .percent {
+    font-weight: 700;/*fauz*/
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.money-product2 .strike {
+    font-size: 18px;   /*ustden xet*/
+}
+/*rengler*/
+
+.color-product {
+    padding: 3px 0 0;
+    margin: 0 0 15px;
+    
+}
+
+.color-product a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;/*reng yeri*/
+    background-color: #F39C11;
+    border: 1px solid #e7e8ea;
+}
+
+.color-product a:hover {
+    border: 1px solid #1c1c1c;
+}
+
+.color-product a:nth-child(2) {
+    background-color: #A0D468;
+    
+}
+
+.color-product a:nth-child(3) {
+    background-color: #5D9CEC;
+}
+
+.color-product a:nth-child(4) {
+    background-color: #434A54;
+}
+
+
+/*rengler bitir*/
+
+.p-product2{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.icon-sell2{
+    margin: 20px 0 0;
+}
+.icon-sell2 a:hover {
+    background-color: #8e8e8e;
+}
+
+.icon-sell2 a {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.icon-sell2 i {
+    color: white;
+    font-size: 30px;
+}
+
+.second-icon-sell2 {
+    margin-left: 5px;
+}
+#nav-body {
+    padding: 16px 0;
+    margin: 32px 0;
+}
+
+#nav-body p {
+    color: #1c1c1c; /*axrinci soz*/
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    height: 40px;
+    padding: 13px 0;
+}
